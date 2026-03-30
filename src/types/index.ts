@@ -7,6 +7,10 @@ export interface Section {
   content?: string
   showButton?: boolean
   buttonText?: string
+  image?: string
+  imageAlt?: string
+  imagePosition?: 'left' | 'right'
+  tag?: string
 }
 
 export interface SectionProps extends Section {
